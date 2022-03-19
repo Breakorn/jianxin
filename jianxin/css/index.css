@@ -1,0 +1,166 @@
+/* header */
+.header .w ul li{
+    float: left;
+    padding: 10px 10px;
+}
+.header .w ul:last-child li{
+    float: left;
+    position: relative;
+    padding: 17px 17px;
+}
+.header .w ul li a{
+    color: black;
+}
+.header .w ul:first-child .logo {
+    display: block;
+    width: 45px;
+    height: 34px;
+    background: url(../imgs/logo.png) no-repeat;
+}
+.header ul:first-child h2 {
+    margin-left: 3px;
+}
+.header ul:first-child h2 a:first-child {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: -4px;
+}
+.header ul:first-child h2 a:last-child {
+    display: block;
+    font-size: 12px;
+    margin-top: -1px;
+}
+.header .w .fr>li:last-child {
+    padding: 0;
+    margin-top: 12px;
+}
+.header .w .fr>li:last-child button{
+    display: block;
+    border-radius: 7px;
+    width: 80px;
+    height: 30px;
+    border: none;
+    outline: none;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+    background-color: #18a88b;
+}
+.header .w ul:last-child li ul {
+    position: absolute;
+    top: 55px;
+    left: 0;
+    display: none;
+    z-index: 9;
+    background-color: white;
+    box-shadow: 1px 1px 24px rgba(0,0,0,.1);
+    
+}
+.header .w ul:last-child li ul {
+    white-space: nowrap;
+}
+.header .w ul:last-child li:hover ul {
+    display: block;
+}
+.header .w ul:last-child>li:hover>a{
+    color: #18a88b;
+}
+/* banner */
+.banner .bgimg {
+    position: relative;
+    width: 1818px;
+    margin: auto;
+}
+.banner .cloud {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -600px;
+}
+.banner .cloud .left p:first-child{
+    font-size: 34px;
+    font-weight: bold;
+    color: white;
+    line-height: 58px;
+}
+.banner .cloud .left p:nth-child(2){
+    margin-top: 10px;
+    font-size: 16px;
+    color: white;
+}
+.banner .cloud {
+    margin-top: 100px;
+}
+.banner .cloud .left .btn {
+    margin-top: 60px;
+}
+.banner .cloud .left div a {
+    display: inline-block;
+    margin-left: 30px;
+    width: 115px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    color: white;
+    box-shadow: 0 0 2px 0px rgb(255,255,255) inset;
+    transition: all .4s;
+    
+}
+.banner .cloud .left div a:hover {
+    color: #18a88b;
+    box-shadow: 0 0 10px 24px rgba(255,255,255,.9) inset;
+}
+/* main */
+.main .content {
+    height: 1528px;
+    background: url(../imgs/bg1.png) no-repeat center;
+}
+.main .top p{
+    margin: 84px 0;
+    text-align: center;
+    font-size: 33px;
+    color: #333340;
+}
+
+.main .content {
+    overflow: hidden;
+}
+.main .content>div {
+    width: 1200px;
+    height: 572px;
+}
+.main .content .content_box {
+    margin-top: 70px;
+    width: 260px;
+
+}
+.main .content div p {
+    font-size: 28px;
+    color: #333340;
+    margin-bottom: 16px;
+}
+.main .content div p:nth-child(2) {
+    color: #18a88b;
+    margin-bottom: 30px;
+}
+.main .content .content_box ul li {
+    float: left;
+    width: 130px;
+    margin-bottom: 17px;
+}
+.main .content>div:nth-child(2) ul li {
+    float: right;
+}
+.main .content>div:nth-child(3) ul li {
+    float: none;
+}
+.main .content div ul li span {
+    font-size: 10px;
+    margin-right: 4px;
+    color: #7b8393;
+}
+.main .content div ul li a {
+    font-size: 14px;
+    color: #7b8393;
+}
