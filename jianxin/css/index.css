@@ -113,8 +113,8 @@
 }
 /* main */
 .main .content {
-    height: 1528px;
-    background: url(../imgs/bg1.png) no-repeat center;
+
+    background: url(../imgs/bg1.png) no-repeat top center;
 }
 .main .top p{
     margin: 84px 0;
@@ -126,7 +126,7 @@
 .main .content {
     overflow: hidden;
 }
-.main .content>div {
+.main .content>div[class=clearfix] {
     width: 1200px;
     height: 572px;
 }
@@ -163,4 +163,265 @@
 .main .content div ul li a {
     font-size: 14px;
     color: #7b8393;
+}
+.main .content .third {
+    margin-bottom: 20px;
+}
+/* main-center */
+
+.main-center .w .buttons{
+    overflow: hidden;
+    width: 423px;
+    margin: auto;
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+.main-center .w .buttons a{
+    float: left;
+    background-color: #fff;
+    color: #18a88b;
+    text-align: center;
+    box-shadow: 0 0 0 1px rgba(0,0,0,.2) inset;
+}
+.main-center .w .buttons a:first-child{
+    width: 238px;
+    height: 43px;
+    line-height: 43px;
+    margin-right: 35px;
+}
+.main-center .w .buttons a:last-child{
+    width: 150px;
+    height: 43px;
+    line-height: 43px;  
+}
+.main-center  .w .buttons a:hover{
+    background-color: #18a88b;
+    color: #fff;
+    box-shadow: none;
+}
+/* main-foot */
+.main-foot {
+    width: 100%;
+    background-color: #18a88b;
+}
+.main-foot .w {
+    overflow: hidden;
+}
+.main-foot .w>p {
+    text-align: center;  
+    margin-top: 94px;
+    font-size: 33px;
+    color: white;
+}
+.main-foot .w .list ul{
+    float: left;
+    margin-left: 160px;
+    margin-top: 80px;
+}
+
+.main-foot .w .list ul li p {
+    font-size: 22px;
+    margin-top: 7px;
+    margin-bottom: 40px;
+    
+}
+.main-foot .w .list li {
+    margin-bottom: 18px;
+    color: white;
+}
+.main-foot .w .list li a {
+    color: white;
+}
+.main-foot .w .buttons{
+    overflow: hidden;
+    width: 423px;
+    margin: auto;
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+.main-foot .w .buttons a{
+    float: left;
+    background-color: #18a88b;
+    color: #fff;  
+    text-align: center;
+    box-shadow: 0 0 0 1px rgba(0,0,0,.2) inset;
+}
+.main-foot .w .buttons a:first-child{
+    width: 238px;
+    height: 43px;
+    line-height: 43px;
+    margin-right: 35px;
+}
+.main-foot .w .buttons a:last-child{
+    width: 150px;
+    height: 43px;
+    line-height: 43px;  
+}
+.main-foot  .w .buttons a:hover{
+    background-color: #fff;
+    color: #18a88b;
+}
+/* section */
+.section .content {
+
+    background: url(../imgs/bg2.png) no-repeat top center;
+}
+.section .top p{
+    margin: 84px 0;
+    text-align: center;
+    font-size: 33px;
+    color: #333340;
+}
+
+.section .content {
+    overflow: hidden;
+}
+.section .content>div{
+    width: 1200px;
+    height: 575px;
+}
+.section .content>div:nth-of-type(2){
+    height: 500px;
+}
+.section .content>div:nth-of-type(3){
+    height: 417px;
+}
+.section .content>div:nth-of-type(4){
+    height: 581px;
+}
+.section .content>div:nth-of-type(5){
+    height: 357px;
+}
+.section .content>div:nth-of-type(6){
+    height: 220px;
+}
+.section .content .content_box {
+    margin-top: 70px;
+    width: 370px;
+
+}
+.section .content div p {
+    font-size: 28px;
+    color: #333340;
+    margin-bottom: 16px;
+}
+.section .content div p:nth-child(2) {
+    color: #18a88b;
+    margin-bottom: 30px;
+}
+.section .content .content_box ul li {
+    width: 370px;
+    margin-bottom: 17px;
+}
+.section .content>div:nth-child(2) ul li {
+    float: right;
+}
+.section .content>div:nth-child(3) ul li {
+    float: none;
+}
+.section .content div ul li span {
+    font-size: 10px;
+    margin-right: 4px;
+    color: #7b8393;
+}
+.section .content div ul li a {
+    font-size: 14px;
+    color: #7b8393;
+}
+.section .w .clearfix .buttons{
+    overflow: hidden;
+    width: 423px;
+    margin: auto;
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+.section .w .clearfix .buttons a{
+    float: left;
+
+    background-color: #fff;
+    color: #18a88b;
+    text-align: center;
+    box-shadow: 0 0 0 1px rgba(0,0,0,.2) inset;
+}
+.section .w .clearfix .buttons a:first-child{
+    width: 238px;
+    height: 43px;
+    line-height: 43px;
+    margin-right: 35px;
+}
+.section .w .clearfix .buttons a:last-child{
+    width: 150px;
+    height: 43px;
+    line-height: 43px;  
+}
+.section .clearfix .buttons a:hover{
+    background-color: #18a88b;
+    color: #fff;  
+}
+/* section-center */
+.section-center {
+    display: inline-block;
+    width: 100%;
+    background-color: #f8fafc;
+}
+.section-center .w>h1 {
+    margin-top: -40px;
+    text-align: center;
+}
+.section-center .w>p {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    font-size: 13px;    
+}
+.section-center ul {
+    margin-bottom: 40px;
+}
+.section-center ul li {
+    float: left;
+    width: 275px;
+    height: 160px;
+    padding-left: 20px;
+    padding-top: 25px;
+    margin-bottom: 12px;
+    margin-right: 6px;
+    background-color: white;
+}
+.section-center ul li:nth-of-type(4n){
+    margin-right: 0;
+}
+.section-center ul li div {
+    margin-top: 20px;
+}
+ /* <!-- section-foot --> */
+
+ .section-foot .w .buttons{
+    overflow: hidden;
+    width: 423px;
+    margin: auto;
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+.section-foot .w .buttons a{
+    float: left;
+
+    background-color: #fff;
+    color: #18a88b;
+    text-align: center;
+    box-shadow: 0 0 0 1px rgba(0,0,0,.2) inset;
+}
+.section-foot .w .buttons a:first-child{
+    width: 238px;
+    height: 43px;
+    line-height: 43px;
+    margin-right: 35px;
+}
+.section-foot .w .buttons a:last-child{
+    width: 150px;
+    height: 43px;
+    line-height: 43px;  
+}
+.section-foot  .w .buttons a:hover{
+    background-color: #18a88b;
+    color: #fff;  
 }
